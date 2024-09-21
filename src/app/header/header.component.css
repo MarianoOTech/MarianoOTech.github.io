@@ -1,0 +1,104 @@
+header{
+    background-color: rgb(19, 19, 19);
+    width: 900px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.personal-information{
+    font-family: 'Bebas Neue';
+    width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal-information h1{
+    color: rgb(255, 194, 25);
+    margin: 0px;
+    font-size: 33px;
+    padding-left: 20px;
+    margin-bottom: -10px;
+}
+
+.personal-information h2{
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.personal-information b{
+    font-size: 12px;
+    font-family: 'Heebo';
+    color: aliceblue;
+}
+
+.objetivo {
+    font-size: 15px;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.image-container {
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.image-container img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;  
+}
+
+.social-date{
+    font-family: 'Heebo';
+    font-size: 15px;
+    color: rgb(235, 235, 235);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.social-date .email{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    margin: 0px;
+    align-items: center;
+}
+.social-date .location{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    margin: 0px;
+    align-items: center;
+}
+.social-date .cellphone{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    margin: 0px;
+    align-items: center;
+}
+.social-date .instagram{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    margin: 0px;
+    align-items: center;
+}
+.social-date .tiktok{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    margin: 0px;
+    align-items: center;
+}

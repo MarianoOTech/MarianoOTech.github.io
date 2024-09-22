@@ -1,0 +1,59 @@
+.work-experiences {
+    background-color: rgb(255, 213, 27);
+    width: 430px;
+    padding: 10px; 
+    font-family: 'Heebo';
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    margin: 0;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.fecha-ubicacion {
+    justify-content: space-between;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-bottom: -40px;
+}
+
+.work_fecha {
+    margin-top: -6px; 
+    padding-top: 20px;
+}
+
+.work_ubicacion {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.work_body {
+    padding-left: 20px;
+}
+
+.puesto {
+    font-family: 'Bebas Neue';
+    text-align: justify;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex; 
+    max-width: 160;
+    margin-bottom: -5px;
+}
+
+.empresa {
+    text-align: justify;
+    display: flex; 
+    max-width: 160px; 
+    margin-bottom: -10px; 
+}
+
+h3 {
+    font-family: 'Bebas Neue';
+    margin-bottom: -5px;
+}

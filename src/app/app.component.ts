@@ -8,7 +8,8 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,
+  imports: [
+    RouterOutlet,
     HeaderComponent,
     WorkExperienceComponent
 

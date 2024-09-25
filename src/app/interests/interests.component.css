@@ -1,0 +1,26 @@
+.interests {
+    background-color: #0f0f0f;
+    width: 450px;
+    height: 90px;
+  }
+  
+  .interests_title {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue';
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  
+  .interests_items {
+    padding-left: 20px;
+  }
+  
+  .items{
+    display: inline;
+    font-size: 15px;
+    font-family: 'Heebo';
+    color: rgb(255, 255, 255);
+  }

@@ -1,11 +1,9 @@
 .header {
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .body {
+}
+.body {
     display: flex;
     margin: 0 auto;
     width: 900px;
     height:500px;
-  }
+ }

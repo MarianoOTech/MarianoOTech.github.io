@@ -1,31 +1,71 @@
+/* Estilos generales para la sección de experiencias laborales */
 .educ-experiences {
-    background-color: rgb(255, 213, 27);
-    width: 410px;
-    min-height: 150px;
-    padding: 20px; 
-    font-family: 'Heebo';
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #2D2D23;
 }
 
-h1 {
-    font-family: 'Bebas Neue';
-    margin: 0;
-    font-size: 28px;
-    padding-left: 9px;
-    padding-top: 10px;
-    color: black; 
+/* Estilo del título */
+.educ-experiences h1 {
+    font-family: Kalnia;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #EA3925;
 }
 
+/* Contenedor de los trabajos */
+.edu-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+/* Contenedor de cada trabajo */
 .information-container {
-    background-color: rgb(19, 19, 19);
-    max-width: 350px;
-    padding: 15px;
-    border-radius: 15px;
-    margin-left: 10px;
-    margin-top: 5px;
-    color: white;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px; 
+    padding: 15px; 
+    background-color: #EA3925;
 }
 
+/* Estilos para la fecha y ubicación */
 .fecha-ubicacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work_fecha, .work_location {
+    font-family: 'Heebo';
     font-weight: bold;
-    margin-bottom: 5px;
+    font-size: 1em;
+    color: #1e1f19;
+}
+
+/* Estilo del puesto y empresa */
+.puesto {
+    font-family: Kalnia;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #f5b53e;
+}
+
+.empresa {
+    font-size: 1em;
+    font-family: Kalnia;
+    font-weight: bold;
+    color: #F2BA52;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .works {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
 }

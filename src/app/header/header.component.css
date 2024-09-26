@@ -14,7 +14,7 @@
 }
 
 .image-container img {
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .personal-information h1 {
-    color: #F2BA52;
+    color: #f5b53e;
     font-size: 3.0em;
     font-family: Kalnia;
     margin-bottom: 1px;

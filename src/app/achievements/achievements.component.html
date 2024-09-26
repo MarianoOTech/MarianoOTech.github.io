@@ -1,7 +1,8 @@
-<div class="achivements">
-    <h1 id="achivements_title">Achievements</h1>
-    <div id="achivements_items" *ngFor="let item of achivements">
-      <div id="cuadradito"></div>
-      <p id="item">{{item.description}}</p>
+<div class="achivements-experiences">
+    <h1>Achievements</h1>
+    <div class="achivements-container">
+      <p *ngFor="let item of achivements" class="information-container">
+        {{item.description}}
+      </p>
     </div>
 </div>

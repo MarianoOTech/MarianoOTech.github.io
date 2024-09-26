@@ -1,0 +1,51 @@
+/* Estilos generales para la sección de experiencias laborales */
+.achivements-experiences {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #2D2D23;
+  }
+  
+  /* Estilo del título */
+  .achivements-experiences h1 {
+    font-family: Kalnia;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #f5b53e;
+  }
+  
+  /* Contenedor de los trabajos */
+  .achivements-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; /* Centrar los elementos en el contenedor */
+  }
+  
+  /* Contenedor de cada trabajo */
+  .information-container {
+    width: 200px; /* Ancho fijo para los cuadrados */
+    border-radius: 10px; /* Borde redondeado */
+    margin: 5px; /* Espaciado entre trabajos */
+    padding: 5px; /* Espaciado interno */
+    background-color: #F2BA52;
+    font-family: 'Heebo';
+    font-weight: bold;
+    font-size: 1em;
+    color: #1e1f19;
+    display: flex; /* Usar flexbox para centrar contenido */
+    flex-direction: column; /* Colocar los elementos en columna */
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    text-align: center; /* Alinear texto al centro */
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .works {
+        width: 100%; /* Ancho completo en pantallas pequeñas */
+        margin: 10px 0; /* Espaciado vertical en móviles */
+    }
+  }

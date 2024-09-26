@@ -1,8 +1,15 @@
-<div class="skills">
-  <h1 class="titulo_skills">Skills</h1>
-    <div class="elemento_skills">
-      <p *ngFor="let skill of skills">
+<div class="skills-experiences">
+  <h1>Skills</h1>
+  <div class="edu-container">
+    <div *ngFor="let skill of skills" class="skill-container">
+      <div class="skill-description">
         {{skill.description}}
-      </p>
+      </div>
+      <div class="progress-bar">
+        <div class="progress" [ngStyle]="{'width': skill.percentage + '%'}">
+          {{skill.percentage}}%
+        </div>
+      </div>
     </div>
+  </div>
 </div>

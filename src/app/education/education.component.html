@@ -1,0 +1,12 @@
+<div class="educ-experiences">
+    <h1>Education</h1>
+    <div *ngFor="let work of educationExperience">
+        <div class="information-container">
+            <p class="fecha-ubicacion">
+                    {{work.fecha}} {{work.ubicacion}}
+            </p>
+            <p class="puesto">{{work.puesto}}</p>
+            <p class="empresa">{{work.empresa}}</p>
+        </div>
+    </div>
+</div>

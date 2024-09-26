@@ -1,0 +1,104 @@
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #db311e 
+}
+
+.image-container {
+    flex: 1 1 100px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 80%;
+    height: auto;
+}
+
+.personal-information {
+    flex: 2 1 300px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.personal-information h1 {
+    color: #F2BA52;
+    font-size: 3.0em;
+    font-family: Kalnia;
+    margin-bottom: 1px;
+    line-height: .2;
+}
+
+.personal-information h2 {
+    font-size: 2.1em;
+    color: #1e1f19;
+    margin-bottom: 20px;
+}
+
+.objetivo p {
+    font-family: 'Heebo';
+    font-size: 1.1em;
+    line-height: 1;
+    color: #1e1f19;
+    margin: 0 20px;
+    margin-bottom: 10px;
+}
+
+/* Nueva barra de social-date */
+.social-date {
+    width: 100%; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 10px 0;
+    color: #1e1f19;
+    font-family: 'Heebo';
+    font-size: .9em;
+    flex-wrap: wrap;
+}
+
+.social-date .email, .location, .cellphone, .instagram, .github{
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+    align-items: center;
+    background-color: #F2BA52;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personal-information,
+    .social-date {
+        text-align: center;
+    }
+
+    .personal-information h1{
+        font-size: 3em;
+        line-height: 1;
+    }
+    .personal-information h2 {
+        font-size: 2em;
+    }
+
+    .social-date {
+        justify-content: center; 
+    }
+    .social-date .email, .location, .cellphone, .instagram, .github {
+        margin: 5px 5px; 
+    }
+
+    .social-date b {
+        margin: 5px 10px;
+    }
+}

@@ -13,33 +13,39 @@ export class SkillsComponent {
 
   ngOnInit(): void {
     let skill1 = {
-      description: "Data Analysis"
+      description: "Data Analysis",
+      percentage: 80 // Porcentaje de habilidad
     };
 
     let skill2 = {
-      description: "Web Development"
+      description: "Web Development",
+      percentage: 90
     };
 
     let skill3 = {
-      description: "Teamwork"
+      description: "Teamwork",
+      percentage: 70
     };
 
     let skill4 = {
-      description: "Communication"
+      description: "Communication",
+      percentage: 85
     };
 
     let skill5 = {
-      description: "Collaboration"
+      description: "Collaboration",
+      percentage: 75
     };
 
     let skill6 = {
-      description: "Collaboration"
+      description: "Problem Solving",
+      percentage: 65
     };
 
     let skill7 = {
-      description: "Creativity"
+      description: "Creativity",
+      percentage: 60
     }
-
 
     this.skills.push(skill1);
     this.skills.push(skill2);

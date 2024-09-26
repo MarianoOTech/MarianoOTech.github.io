@@ -1,26 +1,39 @@
 .interests {
-    background-color: #0f0f0f;
-    width: 450px;
-    height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #2D2D23;
   }
   
-  .interests_title {
-    margin: 0;
-    color: rgb(255, 255, 255);
-    font-family: 'Bebas Neue';
-    font-size: 28px;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-top: 10px;
+  .interests h1{
+    font-family: Kalnia;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #f5b53e;
   }
   
   .interests_items {
-    padding-left: 20px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
   }
   
   .items{
-    display: inline;
-    font-size: 15px;
+    width: 20%; 
+    border-radius: 10px; 
+    margin: 5px; 
+    padding: 5px; 
+    background-color: #F2BA52;
     font-family: 'Heebo';
-    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1em;
+    color: #1e1f19;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }

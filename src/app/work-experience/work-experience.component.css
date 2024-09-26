@@ -1,59 +1,89 @@
+/* Estilos generales para la sección de experiencias laborales */
 .work-experiences {
-    background-color: rgb(255, 213, 27);
-    width: 430px;
-    padding: 10px; 
-    font-family: 'Heebo';
-}
-
-h1 {
-    font-family: 'Bebas Neue';
-    margin: 0;
-    font-size: 28px;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-
-.fecha-ubicacion {
-    justify-content: space-between;
     display: flex;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-    margin-bottom: -40px;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #2D2D23;
 }
 
-.work_fecha {
-    margin-top: -6px; 
-    padding-top: 20px;
+/* Estilo del título */
+.work-experiences h1 {
+    font-family: Kalnia;
+    text-align: center;
+    font-size: 2.1em;
+    margin-bottom: 20px;
+    color: #EA3925;
 }
 
-.work_ubicacion {
-    margin: 0;
-    padding-top: 20px;
-}
-
-.work_body {
-    padding-left: 20px;
-}
-
-.puesto {
-    font-family: 'Bebas Neue';
-    text-align: justify;
-    font-weight: bold;
-    font-size: 25px;
+/* Contenedor de los trabajos */
+.works-container {
     display: flex; 
-    max-width: 160;
-    margin-bottom: -5px;
+    flex-wrap: wrap; 
+    justify-content: center; /* Centrar los elementos en el contenedor */
+}
+
+/* Contenedor de cada trabajo */
+.works {
+    width: 200px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #EA3925;
+}
+
+/* Estilos para la fecha y ubicación */
+.fecha-ubicacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work_fecha, .work_location {
+    font-family: 'Heebo';
+    font-weight: bold;
+    font-size: 1em;
+    color: #1e1f19;
+}
+
+/* Estilo del puesto y empresa */
+.puesto {
+    font-family: Kalnia;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #f5b53e;
+    line-height: .9;
 }
 
 .empresa {
-    text-align: justify;
-    display: flex; 
-    max-width: 160px; 
-    margin-bottom: -10px; 
+    font-size: 1em;
+    font-family: Kalnia;
+    font-weight: bold;
+    color: #F2BA52;
 }
 
+/* Estilo de los logros */
 h3 {
-    font-family: 'Bebas Neue';
-    margin-bottom: -5px;
+    margin-top: 5px;
+    font-size: 1.1em;
+    color:#1e1f19;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    font-family: 'Heebo';
+    font-size: 0.95em;
+    color: #1e1f19;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .works {
+        width: 100%; /* Ancho completo en pantallas pequeñas */
+        margin: 10px 0; /* Espaciado vertical en móviles */
+    }
+
 }

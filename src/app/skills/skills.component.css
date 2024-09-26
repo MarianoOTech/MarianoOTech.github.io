@@ -1,31 +1,51 @@
-.skills {
-    background-color: #f5e839;
-    width: 450px;
-    height: 220px;
+/* Contenedor principal de las habilidades */
+.skills-experiences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #2D2D23;
+}
+
+/* Título de la sección */
+.skills-experiences h1 {
+  font-family: Kalnia;
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: #f5b53e;
+}
+
+/* Contenedor de cada habilidad */
+.skill-container {
+  width: 200%;
+  max-width: 500px;
+  margin-bottom: 20.5px;
+}
+
+/* Descripción de la habilidad */
+.skill-description {
+  font-family: 'Heebo';
+  font-weight: bold;
+  font-size: 1em;
+  color: #f5b53e;
+  margin-bottom: 5px;
+}
+
+/* Barra de progreso interna */
+.progress {
+  height: 100%;
+  background-color: #db311e;
+  text-align: right;
+  padding-right: 10px;
+  color: #db311e;
+  font-weight: bold;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .skill-container {
+    width: 90%;
   }
-  
-h1{
-    margin: 0;
-    padding-left: 25px;
-    padding-top: 10px;
-    font-family: 'Bebas Neue';
-    font-size: 28px;
-  }
-  
-.elemento_skills{
-    padding-left: 25px;
-    padding-top: 10px;
-    margin: 0;
-  }
-  
-p{
-    display: inline-block;
-    font-size: 15px;
-    color: #f4f2ff;
-    font-family: 'Heebo';
-    background-color: rgb(19, 19, 19);
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 5px;
-  }
+}

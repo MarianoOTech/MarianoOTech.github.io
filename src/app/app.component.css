@@ -1,9 +1,30 @@
+/* Estilos generales */
 .header {
     display: flex;
 }
-.body {
+
+/* Contenedor principal que agrupa las secciones izquierda y derecha */
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    box-sizing: border-box;
+}
+
+/* Sección izquierda */
+.left_side {
     display: flex;
-    margin: 0 auto;
-    width: 900px;
-    height:500px;
- }
+    flex-direction: column;
+}
+
+/* Sección derecha */
+.right_side {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .content-container {
+        grid-template-columns: 1fr; /* Cambia a una columna en pantallas pequeñas */
+    }
+}
